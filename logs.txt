@@ -1,0 +1,175 @@
+$ git log  ////na master
+commit 9d7ae7e4ad3a2c72ff5d5017942b5787a6e4c819 (HEAD -> master, origin/bug3, bug3)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:28:20 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit 620490dd88964ce5176b0a6acb9cc42debe42108 (origin/master)
+Merge: dd9449d 89fbffe
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:30:22 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 89fbffe89646d2c37c23dd95d11320cd439de686 (origin/bug2, bug2)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:26:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit dd9449d13854a4eba52d576d98ec36bfba9be3dd (origin/bug1, bug1)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:24:44 2023 +0200
+:
+commit 9d7ae7e4ad3a2c72ff5d5017942b5787a6e4c819 (HEAD -> master, origin/bug3, bug3)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:28:20 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit 620490dd88964ce5176b0a6acb9cc42debe42108 (origin/master)
+Merge: dd9449d 89fbffe
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:30:22 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 89fbffe89646d2c37c23dd95d11320cd439de686 (origin/bug2, bug2)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:26:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit dd9449d13854a4eba52d576d98ec36bfba9be3dd (origin/bug1, bug1)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:24:44 2023 +0200
+:...skipping...
+commit 9d7ae7e4ad3a2c72ff5d5017942b5787a6e4c819 (HEAD -> master, origin/bug3, bug3)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:28:20 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit 620490dd88964ce5176b0a6acb9cc42debe42108 (origin/master)
+Merge: dd9449d 89fbffe
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:30:22 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 89fbffe89646d2c37c23dd95d11320cd439de686 (origin/bug2, bug2)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:26:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit dd9449d13854a4eba52d576d98ec36bfba9be3dd (origin/bug1, bug1)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:24:44 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit 2524b15c20d0ee678902d0e9bd7f19352e3e7839
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:21:06 2023 +0200
+
+    Add java class.
+
+commit 8fce8f75c3122eb63881e35fab8bb3277b73091e
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:17:25 2023 +0200
+
+    Initial commit.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+
+......................................................................................................
+
+$ git log ///na bug1
+commit dd9449d13854a4eba52d576d98ec36bfba9be3dd (HEAD -> bug1, origin/bug1)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:24:44 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit 2524b15c20d0ee678902d0e9bd7f19352e3e7839
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:21:06 2023 +0200
+
+    Add java class.
+
+commit 8fce8f75c3122eb63881e35fab8bb3277b73091e
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:17:25 2023 +0200
+
+    Initial commit.
+
+...............................................................................................
+
+$ git log  ///na bug2
+commit 89fbffe89646d2c37c23dd95d11320cd439de686 (HEAD -> bug2, origin/bug2)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:26:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit 2524b15c20d0ee678902d0e9bd7f19352e3e7839
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:21:06 2023 +0200
+
+    Add java class.
+
+commit 8fce8f75c3122eb63881e35fab8bb3277b73091e
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:17:25 2023 +0200
+
+    Initial commit.
+
+..................................................................................................
+
+$ git log  ///na bug3 
+commit 9d7ae7e4ad3a2c72ff5d5017942b5787a6e4c819 (HEAD -> bug3, origin/bug3, master)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:28:20 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit 620490dd88964ce5176b0a6acb9cc42debe42108 (origin/master)
+Merge: dd9449d 89fbffe
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:30:22 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 89fbffe89646d2c37c23dd95d11320cd439de686 (origin/bug2, bug2)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:26:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit dd9449d13854a4eba52d576d98ec36bfba9be3dd (origin/bug1, bug1)
+Author: Anja <dodevska_anja92@yahoo.com>
+Date:   Thu Apr 6 15:24:44 2023 +0200
+
+............................................................................................
