@@ -1,0 +1,142 @@
+ПРВА ЛАБОРАТОРИСКА ВЕЖВА - АЊА ДОДЕВСКА, 213047
+
+
+1. https://github.com/dodevskaa
+2. /
+3. https://github.com/dodevskaa/SI_2023_lab1_213047.git
+4. 
+mkdir SI_2023_lab1_213047 => kreiranje na local repo
+cd SI_2023_lab1_213047 => vlez vo local repo
+$git init => kreiranje git repo vo toj direktorium
+
+5.
+$ git remote add origin https://github.com/dodevskaa/SI_2023_lab1_213047.git => povrzuvanje na local repo so remote repo
+
+6. 
+echo "Anja Dodevska, 213047" > README.md =>pravenje na tekstualna datoteka so edna linija tekst
+$ git add README.md => ja stavame datotekata vo stage area
+$ git commit -m "Initial commit." => pravime commit i pisuvame poraka/komentar za toj commit
+$ ls => so ovaa komanda vrsime izlistuvanje za da proverime dali uspesno e dodadena datotekata vo master, kako rezultat treba da ni go vrati imeto na datotekata (sto bese uspesno)
+
+7. 
+$ git add SILab1.java => dodavame .java dokument 
+$ git commit -m "Add java class." => pravime commit i pisuvame poraka/komentar za toj commit
+$ ls => ni vrakja:    README.md   SILab1.java
+
+8. 
+$git push --all => napravi push (upload) na site novi ili modificirani files => pravime upload od local repo na remote repo
+
+9. 
+$ git status => ja proveruvame momentalnata sostojba
+(se naogjame na master grankata)
+$ git branch bug1 => pravime granka (razgraneta od master grankata) so ime bug1
+$ git branch bug2 => pravime granka (razgraneta od master grankata) so ime bug2
+$ git branch bug3 => pravime granka (razgraneta od master grankata) so ime bug3
+$ git branch => izlistaj mi gi site granki 
+(rez:
+bug1
+bug2
+bu3
+*master => * oznacuva HEAD, se naogjame na master grankata)
+
+10. 
+$ git checkout bug1 => vleguva (se prefrla) na bug1 grankata 
+
+11. 
+$ nano SILab1.java => se otvora editor vo koj ja popravame greskata
+$ git add SILab1.java
+$ git commit -m "Fix wrong loop for reading." => pravime commit so poraka/komentar
+
+12. 
+$ git checkout bug2 => se prefrlame na grankata bug2
+
+13.
+$ nano SILab1.java => se otvora editor vo koj ja popravame greskata
+$ git add SILab1.java
+$ git commit -m "Fix wrong condition in filterOddNumbers." => pravime commit so poraka/komentar
+
+14. 
+$ git checkout bug3 => se prefrlame na grankata bug3
+
+15. 
+$ nano SILab1.java => se otvora editor vo koj ja popravame greskata
+$ git add SILab1.java
+$ git commit -m "Fix method sumEvenNumbers." => pravime commit so poraka/komentar
+
+16. 
+$ git push --all => napravi push (upload) na site novi ili modificirani files => pravime upload od local repo na remote repo
+
+17.
+$ git checkout master => se prefrlame na grankata master
+
+18. 
+$ git merge bug1 => ja spojuvame grankata bug1 kon master 
+Updating 2524b15..dd9449d
+Fast-forward
+ SILab1.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+=> kako rezutat go dobivme gore navedonoto, sto znaci ne nastanal konflikt i spojuvanjeto e izvrseno so Fast Forward strategija.
+
+19. 
+$ git push --all => napravi push (upload) na site novi ili modificirani files => pravime upload od local repo na remote repo
+
+
+20. 
+$ git merge bug2 => ja spojuvame grankata bug2 kon master
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+=> kako rezultat go dobivme gore navedenoto, nastana konflikt, koj bese razresen samostojno od git i spojuvanjeto e izvrseno so Recursive strategija.
+
+21. 
+$ git push --all => napravi push (upload) na site novi ili modificirani files => pravime upload od local repo na remote repo
+
+22. 
+$ git checkout bug3 => se prefrlame na grankata bug3
+
+23.
+$ git rebase master => pravime rebase sprema grankata master
+Successfully rebased and updated refs/heads/bug3.
+
+24. 
+$ git checkout master => se prefrlame na grankata master
+
+25.
+$ git merge bug3 => pravime spojuvanje na grankata bug3 kon grankata master
+Updating 620490d..9d7ae7e
+Fast-forward
+ SILab1.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+=> kako rezultat go dobivme gore navedenoto, sto znaci ne deka ne doslo do konflikt i spojuvanjeto e izvrseno so Fast Forward strategija.
+
+26.
+$ git push -u origin bug3 --force => prezemi gi promenite od local repo i napravi upload na remote repo 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 343 bytes | 343.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dodevskaa/SI_2023_lab1_213047.git
+ + 52df674...f83ce4c bug3 -> bug3 (forced update)
+branch 'bug3' set up to track 'origin/bug3'.
+
+27. 
+$ git log => za da ja iskopiram sodrzinata za vo logs.txt
+$ git checkout master => se prefrlame na master
+$ git add logs.txt => go dodavame file logs.txt
+$ git commit -m "Final commit." => pravime commit so poraka/komentar
+$ git add 213047.txt =? go dodavame file 213047.txt
+$ git commit -m "Final commit." => pravime commit so poraka/komentar
+
+28. 
+git push --all => napravi push (upload) na site novi ili modificirani files => pravime upload od local repo na remote repo
+
+
+
+
